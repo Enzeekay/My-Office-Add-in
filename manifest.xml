@@ -6,11 +6,11 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="My Office Add-in"/>
   <Description DefaultValue="A template to get started."/>
-  <IconUrl DefaultValue="https://localhost:3000/assets/icon-64.png"/>
-  <HighResolutionIconUrl DefaultValue="https://localhost:3000/assets/icon-128.png"/>
+  <IconUrl DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-64.png"/>
+  <HighResolutionIconUrl DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://www.contoso.com/help"/>
   <AppDomains>
-    <AppDomain>https://www.contoso.com</AppDomain>
+    <AppDomain>https://enzeekay.github.io/My-Office-Add-in</AppDomain>
   </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
@@ -23,7 +23,7 @@
   <FormSettings>
     <Form xsi:type="ItemRead">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://localhost:3000/taskpane.html"/>
+        <SourceLocation DefaultValue="https://enzeekay.github.io/My-Office-Add-in/taskpane.html"/>
         <RequestedHeight>250</RequestedHeight>
       </DesktopSettings>
     </Form>
@@ -98,14 +98,14 @@
       </Hosts>
       <Resources>
         <bt:Images>
-          <bt:Image id="icon-16" DefaultValue="https://contoso.com/assets/icon-16.png"/>
-          <bt:Image id="icon-32" DefaultValue="https://contoso.com/assets/icon-32.png"/>
-          <bt:Image id="icon-48" DefaultValue="https://contoso.com/assets/icon-48.png"/>
-          <bt:Image id="icon-64" DefaultValue="https://contoso.com/assets/icon-64.png"/>
-          <bt:Image id="icon-80" DefaultValue="https://contoso.com/assets/icon-80.png"/>
+          <bt:Image id="icon-16" DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-16.png"/>
+          <bt:Image id="icon-32" DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-32.png"/>
+          <bt:Image id="icon-48" DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-48.png"/>
+          <bt:Image id="icon-64" DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-64.png"/>
+          <bt:Image id="icon-80" DefaultValue="https://enzeekay.github.io/My-Office-Add-in/assets/icon-80.png"/>
         </bt:Images>
         <bt:Urls>
-          <bt:Url id="residFunctionFile" DefaultValue="https://contoso.com/commands.html"/>
+          <bt:Url id="residFunctionFile" DefaultValue="https://enzeekay.github.io/My-Office-Add-in/src/commands/commands.html"/>
         </bt:Urls>
         <bt:ShortStrings>
           <bt:String id="residDescription" DefaultValue="Contoso meeting"/>
